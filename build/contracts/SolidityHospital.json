@@ -1,0 +1,178 @@
+{
+  "contractName": "SolidityHospital",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{},\"notice\":\"SolidityHospital contract serves to: Public: Private:\"}},\"settings\":{\"compilationTarget\":{\"/home/eric/Desktop/BC/Solidity-Hospital/contracts/SolidityHospital.sol\":\"SolidityHospital\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/eric/Desktop/BC/Solidity-Hospital/contracts/SolidityHospital.sol\":{\"keccak256\":\"0xe73d1c62480c9ec52df96a48c16ff0cf9abd1c2583219fceb320e770248fe64d\",\"urls\":[\"bzzr://37fe883653c0fc2209fd7b053abcdd2337d359cf7d63a43bb8bff5cc05607b3f\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058205d46983068a4871be8d0f63dbe631eae58f792a8ec8028f661ebef7c0b9884100029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058205d46983068a4871be8d0f63dbe631eae58f792a8ec8028f661ebef7c0b9884100029",
+  "sourceMap": "104:73:1:-;;;144:31;8:9:-1;5:2;;;30:1;27;20:12;5:2;144:31:1;104:73;;;;;;",
+  "deployedSourceMap": "104:73:1:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\n/**\n\n    SolidityHospital contract serves to:\n\n    Public:\n\n\n    Private:\n\n */\ncontract SolidityHospital {\n    \n\n\n\n    constructor(  ) public {\n\n    }\n}",
+  "sourcePath": "/home/eric/Desktop/BC/Solidity-Hospital/contracts/SolidityHospital.sol",
+  "ast": {
+    "absolutePath": "/home/eric/Desktop/BC/Solidity-Hospital/contracts/SolidityHospital.sol",
+    "exportedSymbols": {
+      "SolidityHospital": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "SolidityHospital contract serves to:\nPublic:\nPrivate:",
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "SolidityHospital",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "167:8:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:4:1"
+            },
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "167:0:1"
+            },
+            "scope": 63,
+            "src": "144:31:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "104:73:1"
+      }
+    ],
+    "src": "0:177:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/eric/Desktop/BC/Solidity-Hospital/contracts/SolidityHospital.sol",
+    "exportedSymbols": {
+      "SolidityHospital": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "SolidityHospital contract serves to:\nPublic:\nPrivate:",
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "SolidityHospital",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "167:8:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:4:1"
+            },
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "167:0:1"
+            },
+            "scope": 63,
+            "src": "144:31:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "104:73:1"
+      }
+    ],
+    "src": "0:177:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.10",
+  "updatedAt": "2019-06-15T20:22:30.492Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {},
+    "notice": "SolidityHospital contract serves to: Public: Private:"
+  }
+}
